@@ -1,0 +1,387 @@
+ERROR - 2021-09-24 11:12:06 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:12:06 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:22:42 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:22:42 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-24 18:27:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:38 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+CRITICAL - 2021-09-24 18:27:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(28): require('C:\\Users\\UHASHM...')
+#4 {main}
+ERROR - 2021-09-24 11:28:08 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:28:08 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:28:10 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:28:10 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:41 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:41 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:42 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:42 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:42 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:42 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:43 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:43 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:44 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:44 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:45 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:45 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:47 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:47 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:49 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:49 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 11:29:56 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 11:29:56 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:13:24 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:13:24 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:15:17 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:15:17 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:15:18 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:15:18 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:15:20 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:15:20 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:20:53 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:20:53 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 12:22:43 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 12:22:43 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 18:42:10 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 18:42:10 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 18:45:13 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 18:45:13 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 20:14:56 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 20:14:56 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 20:25:07 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 20:25:07 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-24 20:27:16 --> Object of class App\Models\StudentModel could not be converted to string
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\UHASHM...', 14, Array)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-24 20:32:17 --> Object of class App\Models\StudentModel could not be converted to string
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\UHASHM...', 14, Array)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-24 20:38:21 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-09-24 20:38:21 --> Call to a member function getResult() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-24 22:19:28 --> Invalid argument supplied for foreach()
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Views\students_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\UHASHM...', 44, Array)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(214): include('C:\\Users\\UHASHM...')
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('students_view', Array, true)
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(16): view('students_view', Array)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#6 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#7 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-24 22:19:47 --> Invalid argument supplied for foreach()
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Views\students_view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\UHASHM...', 43, Array)
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(214): include('C:\\Users\\UHASHM...')
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('students_view', Array, true)
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(16): view('students_view', Array)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->index()
+#6 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#7 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-24 22:24:11 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-24 22:24:11 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(38): CodeIgniter\BaseModel->first()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 22:25:16 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-24 22:25:16 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(38): CodeIgniter\BaseModel->first()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 22:26:55 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-24 22:26:55 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(38): CodeIgniter\BaseModel->first()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-24 22:30:39 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-24 22:30:39 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(38): CodeIgniter\BaseModel->first()
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-24 23:17:40 --> Invalid file: edit_user.php
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(39): view('edit_user', Array)
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-24 23:23:46 --> Invalid file: edit_user.php
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(39): view('edit_user', Array)
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-24 23:23:51 --> Invalid file: edit_user.php
+#0 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\app\Controllers\StudentsController.php(39): view('edit_user', Array)
+#3 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\StudentsController->singleStudent('1')
+#4 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#5 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\UHASHM1\Tools\xamp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
