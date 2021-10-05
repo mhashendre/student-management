@@ -31,7 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
 
 $routes->get('students', 'StudentsController::index');
 $routes->get('students-form', 'StudentsController::create');
@@ -39,6 +39,9 @@ $routes->post('submit-form', 'StudentsController::store');
 $routes->get('edit-student/(:num)', 'StudentsController::singleStudent/$1');
 $routes->post('update', 'StudentsController::update');
 $routes->get('delete/(:num)', 'StudentsController::delete/$1');
+$routes->get('/', 'StudentsController::index');
+$routes->get('searchResult', 'StudentsController::searchResult');
+// $routes->get('uploadFile', 'StudentsController::uploadFile');
 
 /*
  * --------------------------------------------------------------------
